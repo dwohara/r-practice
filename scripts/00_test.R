@@ -12,4 +12,4 @@ ggsave(here("output", "figures", "test_plot.png"), p, width = 6, height = 4)
 write.csv(df, here("data", "clean", "test_data.csv"))
 
 # Publishing to GitHub
-usethis::use_github()
+usethis::git_default_branch_rename()
